@@ -1,0 +1,38 @@
+{
+    // JSHint Default Configuration File (as on JSHint website)
+    // See http://jshint.com/docs/ for more details
+
+    // Enforcing
+    "bitwise"       : true,     // true: Prohibit bitwise operators (&, |, ^, etc.)
+    "camelcase"     : false,    // true: Identifiers must be in camelCase
+    "curly"         : true,     // true: Require {} for every new block or scope
+    "enforceall"    : false,    // true: Warn when code doesn't follow the most strict configuration
+    "eqeqeq"        : true,     // true: Require triple equals (===) for comparison
+    "es3"           : false,    // true: Warn about incompatibilities with the ES3 specification
+    "es5"           : false,    // true: Warn about incompatibilities with the ES5 specification
+    "forin"         : true,     // true: Require filtering for..in loops with obj.hasOwnProperty()
+    "freeze"        : true,     // true: prohibits overwriting prototypes of native objects such as Array, Date etc.
+    "immed"         : true,     // true: Require immediate invocations to be wrapped in parens e.g. `(function () { } ());`
+    "newcap"        : false,    // true: Require capitalization of all constructor functions e.g. `new F()`
+    "noarg"         : true,     // true: Prohibit use of `arguments.caller` and `arguments.callee`
+    "nocomma"       : false,    // true: Warn about the use of the comma operator
+    "noempty"       : true,     // true: Prohibit use of empty blocks
+    "nonbsp"        : false,    // true: Prohibit "non-breaking whitespace" characters.
+    "nonew"         : true,     // true: Prohibit use of constructors for side-effects (without assignment)
+    "undef"         : true,     // true: Warn when variable is undefined
+    "varstmt"       : false,    // true: Warn about the use of VariableStatements
+
+    "unused"        : true,     // true: Warn about unused variables
+    "maxerr"        : 50,       // {int} Maximum error before stopping
+    "predef"        : ["$", "namespace", "Class", "document", "OptiMonk", "OptiMonkInternal", "OptiMonkRegistry", "AdminForm"],
+
+    // Enviroments
+    "browser"       : false,
+    "jquery"        : false,
+    "devel"         : true,
+    "esnext"        : true,
+    "node"          : true,
+
+    "trailing"      : true,     // true: Warn about trailing whitespace
+    "white"         : true      // true: Disallow messy white space
+}

@@ -1,0 +1,8 @@
+{
+  "logger": {
+    "log_level": "debug"
+  },
+  "server": {
+    "port": "3005"
+  }
+}
